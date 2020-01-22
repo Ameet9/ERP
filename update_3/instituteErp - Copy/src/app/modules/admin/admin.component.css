@@ -1,0 +1,12 @@
+.leftalign{
+    margin-left: 25px;
+}
+
+.topalign{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.bottomalign{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}

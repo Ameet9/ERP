@@ -1,0 +1,13 @@
+
+<div class="container topalign">
+    <div class="row">
+        <button (click)="link('/admin/adminHome')" class="btn btn-primary leftalign">Home</button>
+        <button (click)="link('/admin/adminStudent')" class="btn btn-primary leftalign">Student</button>
+        <button (click)="link('/admin/adminFaculty')" class="btn btn-primary leftalign">Faculty</button>   
+        <button (click)="link('/admin/adminExam')" class="btn btn-primary leftalign">Exam</button>
+        <button  class="btn btn-primary leftalign" (click)="logout()">LogOut</button>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+   

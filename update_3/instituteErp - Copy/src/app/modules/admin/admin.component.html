@@ -1,0 +1,17 @@
+
+<div class="container bottomalign topalign">
+
+        <div>
+            <h1 class="alert alert-info"> Welcome Admin</h1>
+        </div>
+
+    <div class="row " *ngIf="loggedInAdmin==null">
+        <div class="col-8"></div>
+        <div class="col-4">
+            <button [routerLink]="['adminLogin']" class="btn btn-primary leftalign">Login</button>
+        </div>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

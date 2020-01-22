@@ -1,0 +1,13 @@
+<p>student-admin works!</p>
+<button  class="btn btn-primary leftalign" (click)="logout()">LogOut</button>
+<form #myform="ngForm" (ngSubmit)="register(myform.value)">
+    <input type="text" name="fname" ngModel placeholder="Enter your FirstName"><br>
+    <input type="text" name="lname" ngModel placeholder="Enter your LastName"><br>
+    <input type="text" name="gender" ngModel placeholder="Enter your Gender"><br>
+    <input type="text" name="address" ngModel placeholder="Enter your Address"><br>
+    <input type="text" name="city" ngModel placeholder="Enter your City"><br>
+    <input type="text" name="state" ngModel placeholder="Enter your State"><br>
+    <input type="text" name="email" ngModel placeholder="Enter your Email"><br>
+    <input type="text" name="qualification" ngModel placeholder="Enter your qualification"><br>
+    <button type="submit">Register</button>
+</form>
